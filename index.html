@@ -1,18 +1,25 @@
-
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Page Title</title>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.2/howler.min.js"></script>
-    </head>
-    <body>
-        
-        <!--
-        embed autoplay is no longer working on code playground
-        <embed autoplay loop class="st" src="https://www.dropbox.com/s/rq8rkmwlrdspwuy/Evanescence%20-%20Wake%20me%20up%20Inside%20%5BLyrics%5D.mp3?raw=1" type="audio/mpeg"></embed>'
-        -->
-                
-    </body>
+<!-- Created by dimas -->
+<html><meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap" rel="stylesheet"><script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+<body>
+<script> 
+function play() {
+var audio = new Audio('https://Y.dimars.repl.co/Yes.mp3');audio.play();audio.loop=true;audio.addEventListener('ended', function() {this.currentTime = 0;this.play();}, false);}      
+</script>
+<script type="text/javascript">            
+            var today = new Date();var date = today.getDate()+'/'+(today.getMonth()+1)+'/'+today.getFullYear()+'.';var dateTime = date;
+            const swals = Swal.mixin({
+                allowOutsideClick: false,
+            });
+            async function mulai(){
+                await swals.fire('⚠️ Sedang Dalam Tahap pengembangan⚠️');
+                setTimeout(showDiv, 1300);setTimeout(showKlik, 15000);play();
+            }            
+            mulai();
+</script>
+<script>
+  function showDiv() {StartMarquee();document.getElementById('subkonten').style.opacity = "1"; "1";document.getElementById('ftawal').style.height = "160px";document.querySelector("body").style.animation = "fanim 6s ease infinite";} function showKlik() {document.getElementById('tombKlik').style.visibility = "visible";document.getElementById('tombKlik').style.opacity = "1";} function tombol() {document.getElementById('tombWA').style.visibility = "visible";document.getElementById('tombWA').style.opacity = "1";}  
+</script>
+</body>
 </html>
 <!DOCTYPE html>
 <html lang="en">
